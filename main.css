@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgba(240, 240, 243, 0.5);
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+
+
+}
+
+.logo {
+  height: 70px;
+  line-height: 70px;
+  margin-left: 20px;
+}
+
+nav:hover {
+  background-color: rgba(240, 240, 243, 1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+
+}
+
+.container-nav {
+  float: right;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.login span {
+  font-family: "Raleway";
+  color: black;
+  background-color: #F0F0F3;
+  padding: 10px 20px;
+  line-height: 70px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 25px;
+  box-shadow: rgb(213, 210, 208) 5px 5px 15px, rgb(255, 255, 255) -5px -5px 15px;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+
+.login span:hover {
+  box-shadow: 5px 5px 9px #747474, -5px -5px 9px #ffffff;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.login span:active {
+  box-shadow: inset 5px 5px 9px #cacaca, inset -5px -5px 9px #f6f6f6;
+  opacity: 1;
+}
+
+header {
+  height: 500px;
+}
+
+footer {
+  height: 300px;
+  width : 100%;
+  background-color: #1F2227;
+  color: #CFC7BE;
+  font-family : "Raleway";
+  text-align : center;
+  float : left;
+}
+
+
+.gambar {
+  height: 150px;
+
+}
+
+footer li {
+  list-style: none;
+  font-size : 15px;
+}
+
+footer h1 {
+  font-size : 20px;
+}
